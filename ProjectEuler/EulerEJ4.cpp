@@ -12,5 +12,7 @@ int main(){
 
     for (int x = 2; x < numero / 2; x++) {
         if (numero % x == 0) return false;
+
+   
     
 }

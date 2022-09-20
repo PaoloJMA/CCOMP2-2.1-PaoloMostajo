@@ -2,15 +2,17 @@
 using namespace std;
 int main() {
     unsigned long long x;
+    unsigned long long suma1 = 0; 
+    unsigned long long suma2 = 0; 
+    unsigned long long sumafinal1 = 0;
+    cout << "Ingrese el número de veces que se sumarán : ";
     cin >> x;
-    unsigned long long sumacuadrada = 0; 
-    unsigned long long sumaycuadrado = 0; 
-
     for (unsigned long long i = 1; i <= x; i++) {
-      sumacuadrada += i;
-      sumaycuadrado += i*i;
+      suma1 = suma1 + i;
+      suma2 = (suma2 + (i*i));
     }
-    cout << (sumacuadrada - sumaycuadrado) << endl;
+    sumafinal1 = suma1 * suma1;
+    cout << (sumafinal1 - suma2) << endl;
   
   return 0;
 }
