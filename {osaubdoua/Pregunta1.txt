@@ -1,0 +1,38 @@
+(6 points) Defina:
+(a) (1 point) Puntero this;
+
+    This es un puntero que existe solamente dentro de una clase,
+    en su implementación se utiliza junto al operador flecha(->),
+    y apunta a una variable miembro de la clase, usualmente la
+    usamos para igualar esta variable con un argumento del mismo
+    nombre.
+
+(b) (1 point) Destructor;
+
+    Se llama al Destructor, cuando queremos liberar memoria de
+    una instancia, este posee el mismo nombre que la clase + (~)
+    ejemplo:  ~Clase.
+
+(c) (1 point) Memory leak;
+
+    Si tu no liberas memoria asignada con un delete o un Destructor
+    tu aplicación simplmente la esta malgastando, por consiguiente
+    tu  memoria va a colapsar ya que no posee más memoria asignable
+
+
+(d) (1 point) operadores: punto ( . ) y flecha ( − > );
+
+    Ambos poseen el mismo uso, permitir a un objeto acceder a sus
+    funciones miembro, o sus métodos de clase (son lo mismo), los
+    diferencia que el (.) es para cualquier tipo de dato menos 
+    para punteros, y la flecha (->) es justamente para estos últimos
+
+(e) (1 point) funci´on/clase friend;
+
+    Cuando la declaramos nos permite acceder a los datos privados
+    de una clase.
+
+(f) (1 point) Dangling pointer;
+
+    Un Dangling Pointer es un puntero que apunta a "nada", memoria
+    con un contenido indefinido.

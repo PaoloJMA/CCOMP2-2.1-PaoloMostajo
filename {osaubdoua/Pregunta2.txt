@@ -1,0 +1,23 @@
+2. (4 points) Defina y coloque un ejemplo de implementaci´on sobre:
+
+(a) (1 point) Downcasting;
+
+Downcasting es lo opuesto a la regla básica orientada a objetos,
+que establece que los objetos de una clase derivada siempre se 
+pueden asignar a las variables de una clase base.
+
+(b) (1 point) dynamic cast;
+
+Es un operador de conversión que están diseñados para quitar 
+una parte de la ambigüedad y riesgo inherentes a las conversiones
+antiguas del lenguaje C. dynamic cast se usa para Se usa para la
+conversión de tipos polimórficos.
+
+(c) (1 point) typeid;
+
+El operador typeid permite que se determine el tipo de un objeto 
+en tiempo de ejecución.
+
+(d) (1 point) type info;
+
+Typeinfo es una librería de c++ que nos permite usar typeid
