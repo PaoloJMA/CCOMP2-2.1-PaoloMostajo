@@ -1,0 +1,3 @@
+﻿  Game.cpp
+C:\Users\poyoy\source\repos\ProyectoFinal\ProyectoFinal\Game.cpp(32,2): warning C4102: 'deafult': etiqueta sin referencia
+  ProyectoFinal.vcxproj -> C:\Users\poyoy\source\repos\ProyectoFinal\x64\Debug\ProyectoFinal.exe
